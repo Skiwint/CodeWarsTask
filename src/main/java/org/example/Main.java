@@ -16,7 +16,7 @@ public class Main {
                 String test = String.valueOf(i);
                 char[] Arrval = test.toCharArray();
                 int test2 = 0;
-                for(int j = 0 ; j < test.length(); j++){
+                //
                     test2 += Character.getNumericValue(Arrval[j]);
                 }
                 if(test2 < 10){
