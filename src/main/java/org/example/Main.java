@@ -11,7 +11,7 @@ public class Main {
 
 
 
-                for(int i = 0; i <= 1000; i++){
+        ..  for(int i = 0; i <= 1000; i++){
             if(i % 3 == 0 && i % 5 != 0){
                 String test = String.valueOf(i);
                 char[] Arrval = test.toCharArray();
